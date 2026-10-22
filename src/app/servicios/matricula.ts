@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class MatriculaService {
-  private apiUrl = 'http://localhost:8085/api/v1';
+  private apiUrl = 'https://matricula-backend-u8pm.onrender.com/api/v1';
 
   constructor(private http: HttpClient) {}
 
